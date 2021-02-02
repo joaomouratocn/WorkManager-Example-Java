@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trabalho pontual, executa apenas uma vez."
+        tools:ignore="HardCodedText"/>
+
+    <Button
+        android:id="@+id/btn_onTime_work"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="On Time Work"
+        tools:ignore="HardCodedText"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trabalho pontual, executa apenas uma vez, passando Data class work"
+        tools:ignore="HardCodedText"/>
+
+    <Button
+        android:id="@+id/btn_onTime_work_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="On Time Work With Data"
+        tools:ignore="HardCodedText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trabalho pontual, executa apenas uma vez, executando trabalhos em paralelo"
+        tools:ignore="HardCodedText"/>
+
+    <Button
+        android:id="@+id/btn_onTime_parallel_work"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="On Time Parallel Work"
+        tools:ignore="HardCodedText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trabalho periodico, acontece sempre que algumas condições são satisfeitas."
+        tools:ignore="HardCodedText"/>
+
+    <Button
+        android:id="@+id/btn_periodic_work"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Periodic Work"
+        tools:ignore="HardCodedText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Trabalho encadeado, realiza um serie de trabalhos em sequencia, para gera um resultado."
+        tools:ignore="HardCodedText"/>
+
+    <Button
+        android:id="@+id/btn_chainable_work"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chainable Work"
+        tools:ignore="HardCodedText"/>
+</LinearLayout>
